@@ -256,7 +256,7 @@ const About = () => {
   };
   //  console.log(getData(qualificationData , 'experience'))
   return (
-    <section className="xl:h-[auto] pb-12 pt-1 xl:py-24 ">
+    <section className="xl:h-[auto] pb-12 sm:pt-1 xl:py-24 pt-10">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto pt-2">
           About me

@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
   // };
 
   const [currentPage, setCurrentPage] = useState(1);
-  const tagsPerPage = 5;
+  const tagsPerPage = 3;
   const maxTags = 10; // Max tags to display
   
   // Calculate the slice of tags to display
@@ -69,7 +69,7 @@ const ProjectCard = ({ project }) => {
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5">
           {project.category}
         </Badge>
-        <h4 className="h4 mb-2 line-clamp-2">{project.name}</h4>
+        <h4 className="mb-2 line-clamp-2 text-lg lg:text-xl">{project.name}</h4>        
         <p className="text-muted-foreground text-lg line-clamp-5 mb-2">{project.description}</p>
         <div>
           {currentTags.map((item, index) => (
