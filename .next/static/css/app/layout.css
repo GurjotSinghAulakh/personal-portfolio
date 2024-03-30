@@ -1037,14 +1037,14 @@ video {
 .gap-y-32 {
   row-gap: 8rem;
 }
+.gap-y-4 {
+  row-gap: 1rem;
+}
 .gap-y-6 {
   row-gap: 1.5rem;
 }
 .gap-y-8 {
   row-gap: 2rem;
-}
-.gap-y-4 {
-  row-gap: 1rem;
 }
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -1081,9 +1081,6 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
-}
-.rounded-\[12px\] {
-  border-radius: 12px;
 }
 .border {
   border-width: 1px;
@@ -1250,6 +1247,30 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .pb-12 {
   padding-bottom: 3rem;
@@ -1902,6 +1923,10 @@ body::-webkit-scrollbar {
 
   .xl\:bottom-12 {
     bottom: 3rem;
+  }
+
+  .xl\:bottom-20 {
+    bottom: 5rem;
   }
 
   .xl\:mx-0 {

@@ -81,10 +81,10 @@ const Hero = () => {
             />
           </div>
         </div>
-        {/* icon   */}
+        {/* icon   
         <div className="hidden md:flex absolute left-2/4 botton-44 xl:bottom-12 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
-        </div>
+        </div> */}
       </div>
     </section>
   );

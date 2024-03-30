@@ -9,15 +9,15 @@ const projectData = [
     category: "Web app",
     name: "Website maintenance for Secundo.no",
     description:
-      "This project aimed at ongoing website maintenance, where an experienced developer identified and fixed errors to enhance functionality and user experience, ensuring the site's long-term reliability and performance.",
+      "Aimed at regular website maintenance, enhancing functionality, user experience, and reliability through expert error fixes.",
     link: "https://secundo.no/",
     stack: [
       "PHPUnit",
       "Laravel9",
       "MySQL", 
       "PHP",
-      "Bootstrap", 
-      "CSS3",
+      "CSS3", 
+      "Bootstrap",
     ],
     github: "#",
   },
@@ -26,7 +26,7 @@ const projectData = [
     category: "Web app",
     name: "Project Matchmaking Platform",
     description:
-      "A web application to connect students, professors, and companies for project collaborations, featuring personal accounts, project postings by companies, and professor vetting.",
+      "A platform linking students, professors, and companies for project collaboration with accounts, company project listings, and professor oversight.",
     link: "https://gurjotsinghaulakh.github.io/SIM-WebApp/",
     stack: [
       "Docker",
@@ -43,7 +43,7 @@ const projectData = [
     category: "AI",
     name: "MVP: Image Recognition Software",
     description:
-      "An MVP image recognition software for Secundo to identify objects like furniture and appliances, using Google's 'teachable machine' for model training and a website for user testing.",
+      "An MVP utilizes Google's teachable machine for training an image recognition model to identify furniture and appliances, with a website for user feedback.",
     link: "https://gurjotsinghaulakh.github.io/Image-recognition-using-tensorflow/gate1.html",
     stack: [
       "Tensorflow",
@@ -59,8 +59,8 @@ const projectData = [
     category: "Web app",
     name: "MVP: Stock Trading Web Application",
     description:
-      "An accessible, user-friendly web application for real-time monitoring, buying, and selling of stocks, ensuring a secure and convenient platform for users to manage their investment portfolios.",
-    link: "https://github.com/GurjotSinghAulakh/TradingWebApplication",
+      "A secure, intuitive web app for real-time stock trading and portfolio management.",
+    link: "#",
     stack: [
       "HTML5",
       "JavaScript",
@@ -75,23 +75,23 @@ const projectData = [
     category: "Automation",
     name: "Data processing using Zapier",
     description:
-      "The project aimed to optimize data processing through automation, leveraging Zapier for email parsing, Gmail for email services, Google Sheets for spreadsheets, and Mailchimp for email marketing, thus streamlining data collection, processing, and marketing efforts.",
-    link: "/",
+      "The project streamlined data management and email marketing through automation with Zapier, Gmail, Google Sheets, and Mailchimp.",
+    link: "#",
     stack: [
       "Zapier",
-      "Google Sheets",
+      "GoogleSheets",
       "Mailchimp", 
       "Gmail",
     ],
-    github: "/",
+    github: "#",
   },
   {
     image: "/work/6.png",
     category: "Automation",
     name: "Web Scraper for finn.no",
     description:
-      "This project aimed to create a web scraper for finn.no, focusing on appliances and furniture to extract details like product type, brand, condition, price, description, finn code, and location, enabling the company to make informed decisions through comprehensive data analysis and reporting.",
-    link: "/",
+      "The project created a scraper for finn.no to collect appliance and furniture data, aiding company decisions with detailed analysis.",
+    link: "#",
     stack: [
       "Python",
       "API",
@@ -104,21 +104,21 @@ const projectData = [
     category: "Automation",
     name: "Analyzing Data with Google Analytics",
     description:
-      "This project aimed to perform comprehensive data analysis through Google Analytics, focusing on deriving actionable insights to enhance website performance. It leveraged data-driven strategies to optimize user engagement.",
-    link: "/",
+      "The project utilized Google Analytics for in-depth data analysis, aiming to boost website performance and user engagement through data-driven insights.",
+    link: "#",
     stack: [
       "Google Analytics",
       "API",
     ],
-    github: "/",
+    github: "#",
   },
   {
     image: "/work/8.webp",
     category: "Testing",
     name: "Quality assurance for the online banking app",
     description:
-      "The project involved testing a simplified online banking app using Spring Boot, leveraging tools like IntelliJ, SoapUI, Selenium, Excel, and MTM on Azure for comprehensive unit, integration, and system testing.",
-    link: "/",
+      "The project tested a streamlined online banking app with Spring Boot, utilizing IntelliJ, SoapUI, Selenium, Excel, and MTM on Azure for thorough testing at all levels.",
+    link: "#",
     stack: [
       "Java",
       "JUnit",

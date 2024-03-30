@@ -20,21 +20,20 @@ const reviewsData = [
     name: "Mortaza Baqeri",
     job: "Fullstack Developer",
     review:
-    "Bonded over an innovation camp, Gurjot impressed me as dedicated and kind. Our shared school and work experiences, including teaching and ambassador roles, highlighted his team spirit and generosity. Excited for future projects together.",
-  },
+    "Gurjot, dedicated and kind, impressed me at an innovation camp; our shared experiences underscore his team spirit, and I'm eager for future projects together."  },
   {
     avatar: "/reviews/avatar-2.jpeg",
     name: "Tharusan Julian",
     job: "Backend Developer",
     review:
-      "Gurjot, known for his kindness and eagerness to help, often puts others before himself. His capability in programming and problem-solving is matched by his leadership qualities. Gurjot's combination of technical skills and compassion sets him apart.",
+      "Gurjot stands out with his unique blend of technical prowess in programming and problem-solving, complemented by his compassionate leadership and selfless nature.",
   },
   {
     avatar: "/reviews/avatar-3.jpg",
     name: "Okab Mussie",
     job: "Test Engineer",
     review:
-      "Gurjot excels in challenging environments, showing remarkable responsibility and teamwork skills. His helpful nature and leadership abilities stand out, making him a dependable group member.",
+      "Gurjot thrives in difficult situations, demonstrating exceptional leadership and team collaboration, making him a reliable and supportive team member.",
   },
 ];
 
