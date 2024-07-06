@@ -48,6 +48,13 @@ const certificationData = [
     title: "certifications",
     data: [
       { 
+        title: "edX Verified Certificate for Machine Learning with Python: A Practical Introduction",
+        company: "edX",
+        date: "May 2024",
+        credential_id: "c4be5bb9cc6a4f39b26e29e1e59b89d9",
+        link: "https://courses.edx.org/certificates/c4be5bb9cc6a4f39b26e29e1e59b89d9",
+      },
+      { 
         title: "edX Verified Certificate for Introduction to Prompt Engineering",
         company: "edX",
         date: "Jan 2024",
@@ -141,6 +148,11 @@ const qualificationData = [
   {
     title: "experience",
     data: [
+      {
+        company: "AI Engineer",
+        role: "Hubinit (Internship)",
+        years: "July 2024 - Present",
+      },
       {
         company: "Technical Tester",
         role: "SpareBank 1 Forsikring (Contract)",

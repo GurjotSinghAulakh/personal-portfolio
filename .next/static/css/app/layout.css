@@ -2,7 +2,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -1233,6 +1233,9 @@ video {
 .pt-1 {
   padding-top: 0.25rem;
 }
+.pt-10 {
+  padding-top: 2.5rem;
+}
 .pt-12 {
   padding-top: 3rem;
 }
@@ -1241,9 +1244,6 @@ video {
 }
 .pt-2 {
   padding-top: 0.5rem;
-}
-.pt-10 {
-  padding-top: 2.5rem;
 }
 .text-center {
   text-align: center;
@@ -1830,26 +1830,12 @@ body::-webkit-scrollbar {
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .sm\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
   .sm\:pt-1 {
     padding-top: 0.25rem;
   }
 
   .sm\:text-left {
     text-align: left;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }
  @media (min-width: 768px) {
@@ -1878,21 +1864,6 @@ body::-webkit-scrollbar {
     border-width: 1px;
   }
 
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .dark\:md\:bg-secondary:is(.dark *) {
     background-color: hsl(var(--secondary));
   }
@@ -1905,11 +1876,6 @@ body::-webkit-scrollbar {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-xl {
