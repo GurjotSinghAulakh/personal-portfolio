@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /public/about
+Disallow: /public/contact
+Disallow: /public/cta
+Disallow: /public/hero
+Disallow: /public/reviews
+Disallow: /public/work

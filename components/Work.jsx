@@ -180,9 +180,9 @@ const Work = () => {
   return (
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">
-        <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
+        <h1 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           My Projects
-        </h2>
+        </h1>
         {/* tabs  */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
           <TabsList className="w-full grid h-full md:grid-cols-5 lg:max-w-[800px] mb-12 mx-auto md:border dark:border-none">
