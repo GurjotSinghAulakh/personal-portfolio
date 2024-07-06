@@ -128,6 +128,36 @@ const projectData = [
     ],
     github: "https://github.com/GurjotSinghAulakh/TestingAvProgramvare",
   },
+  {
+    image: "/work/9.webp",
+    category: "AI",
+    name: "Implement and evaluate news recommender systems",
+    description:
+      "Implemented a baseline recommender, advanced filtering methods, and evaluated effectiveness, diversity, user satisfaction, and biases.",
+    link: "#",
+    stack: [
+      "Python",
+      "sklearn",
+      "pandas",
+      "NN",
+      "NLP"
+    ],
+    github: "https://github.com/GurjotSinghAulakh/Recommender-systems",
+  },
+  {
+    image: "/work/10.webp",
+    category: "AI",
+    name: "Deep Stack Knock Off - Poker",
+    description:
+      "In 'Deep Stack Knock Off Poker,' we combined deep chip stacks with opponent elimination, enhancing strategic play and optimizing strategies via data-driven analysis.",
+    link: "#",
+    stack: [
+      "Python",
+      "NN",
+      "NLP",
+    ],
+    github: "https://github.com/GurjotSinghAulakh/DeepStack-Knock-Off",
+  },
 ];
 
 //  remove category duplicates
